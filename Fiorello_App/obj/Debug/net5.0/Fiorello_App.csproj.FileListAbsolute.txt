@@ -68,3 +68,8 @@ C:\Users\Farid Guluzade\source\repos\Fiorello_App\Fiorello_App\bin\Debug\net5.0\
 C:\Users\Farid Guluzade\source\repos\Fiorello_App\Fiorello_App\bin\Debug\net5.0\Data.dll
 C:\Users\Farid Guluzade\source\repos\Fiorello_App\Fiorello_App\bin\Debug\net5.0\Data.pdb
 C:\Users\Farid Guluzade\source\repos\Fiorello_App\Fiorello_App\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Farid Guluzade\source\repos\Fiorello_App\Fiorello_App\obj\Debug\net5.0\Razor\Areas\Admin\Views\DashBoard\Index.cshtml.g.cs
+C:\Users\Farid Guluzade\source\repos\Fiorello_App\Fiorello_App\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\Farid Guluzade\source\repos\Fiorello_App\Fiorello_App\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\Farid Guluzade\source\repos\Fiorello_App\Fiorello_App\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\Farid Guluzade\source\repos\Fiorello_App\Fiorello_App\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Index.cshtml.g.cs

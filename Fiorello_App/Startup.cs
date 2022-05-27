@@ -55,7 +55,11 @@ namespace Fiorello_App
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=home}/{action=index}/{id?}"
-                    );
+                );
+                endpoints.MapControllerRoute(
+                   name: "default",
+                   pattern: "{area}/{controller=dashboard}/{action=index}/{id?}"
+                );
             });
         }
     }

@@ -14,12 +14,20 @@ namespace Data.DAL
        
 
         public DbSet<Slider> Sliders { get; set; }
-        public DbSet<Card> Cards { get; set; }
+        
+
+        public DbSet<Product> Products { get; set; }
         public DbSet<Expert> Experts { get; set; }
         public DbSet<Blog> Blogs { get; set; }
 
         public DbSet<Say> Says { get; set; }
 
         public DbSet<Instagram> Instagrams { get; set; }
+
+        public DbSet<Category> Categories { get; set; }
+
+        
+
+        
     }
 }

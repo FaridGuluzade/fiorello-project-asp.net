@@ -4,6 +4,7 @@ using Fiorello_App.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace Fiorello_App.Controllers
@@ -23,7 +24,12 @@ namespace Fiorello_App.Controllers
            HomeVM homeVM = new HomeVM();
 
             homeVM.Sliders = await _context.Sliders.ToListAsync();
-            homeVM.Cards =await _context.Cards.ToListAsync();
+            homeVM.Products =await _context.Products
+                .Include(n=>n.Category)
+                .Where(n => !n.IsDeleted)
+                .OrderByDescending(n=>n.CreatedDate).ToListAsync();
+            homeVM.Categories= await _context.Categories
+                .Where(n => !n.IsDeleted).ToListAsync();
             homeVM.Experts = await _context.Experts.ToListAsync();
             homeVM.Blogs = await _context.Blogs.ToListAsync();
             homeVM.Says = await _context.Says.ToListAsync();
